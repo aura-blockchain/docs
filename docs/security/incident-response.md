@@ -53,7 +53,7 @@ aurad query staking validator $(aurad keys show validator --bech val -a) --home 
 aurad query slashing signing-info $(aurad tendermint show-validator --home ~/.aura) --home ~/.aura
 
 # If jailed, unjail after downtime window
-aurad tx slashing unjail --from validator --chain-id aura-testnet-1 --home ~/.aura -y
+aurad tx slashing unjail --from validator --chain-id aura-mvp-1 --home ~/.aura -y
 
 # Increase priority (reduce missed blocks)
 # Edit ~/.aura/config/config.toml:
@@ -106,7 +106,7 @@ aurad tx gov submit-proposal software-upgrade <upgrade-name> \
   --description "Description" \
   --upgrade-height <HEIGHT> \
   --from validator \
-  --chain-id aura-testnet-1 \
+  --chain-id aura-mvp-1 \
   --home ~/.aura -y
 
 # Cosmovisor handles the rest automatically at upgrade height
@@ -172,7 +172,7 @@ nohup aurad start --home ~/.aura > ~/.aura/logs/node.log 2>&1 &
 # IMMEDIATE ACTIONS (within minutes):
 # 1. Unbond all tokens
 aurad tx staking unbond $(aurad keys show validator --bech val -a) <AMOUNT>uaura \
-  --from validator --chain-id aura-testnet-1 --home ~/.aura -y
+  --from validator --chain-id aura-mvp-1 --home ~/.aura -y
 
 # 2. Stop compromised node
 ssh aura-testnet "pkill -f aurad"
@@ -183,7 +183,7 @@ cp -r ~/.aura/config/priv_validator_key.json ~/.aura/config/priv_validator_key.j
 cp -r ~/.aura/keyring-file ~/.aura/keyring-file.compromised
 
 # 4. Generate new validator key
-aurad init temp --chain-id aura-testnet-1 --home /tmp/newkeys
+aurad init temp --chain-id aura-mvp-1 --home /tmp/newkeys
 cp /tmp/newkeys/config/priv_validator_key.json ~/.aura/config/
 
 # 5. Create new operator account

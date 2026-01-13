@@ -259,7 +259,7 @@ ssh aura-testnet "curl -s http://127.0.0.1:10657/consensus_state | jq '.result.r
 | Netdata (bcpc) | http://192.168.100.2:19999 |
 | Block Explorer | http://139.99.149.160:4000 (if running) |
 | Prometheus | http://158.69.119.76:26660/metrics |
-| Grafana | TBD |
+| Grafana | https://monitoring.aurablockchain.org |
 
 **Quick Health Check:**
 ```bash

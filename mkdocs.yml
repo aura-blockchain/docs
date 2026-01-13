@@ -1,0 +1,71 @@
+site_name: AURA Blockchain Documentation
+site_url: https://docs.aurablockchain.org
+site_description: Documentation for AURA Blockchain - Credential Verification Network
+site_author: AURA Blockchain Team
+
+repo_name: aura-blockchain/aura
+repo_url: https://github.com/aura-blockchain/aura
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Overview: getting-started/overview.md
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quickstart.md
+  - MVP Testnet:
+    - About MVP: mvp/about.md
+    - Modules: mvp/modules.md
+    - CLI Reference: mvp/cli-reference.md
+    - Endpoints: mvp/endpoints.md
+  - Node Operations:
+    - Validator Setup: operations/validator-setup.md
+    - Node Operator Guide: operations/node-operator.md
+    - Upgrade Procedures: operations/upgrades.md
+    - Troubleshooting: operations/troubleshooting.md
+  - API Reference:
+    - REST API: api/rest.md
+    - gRPC: api/grpc.md
+  - Security:
+    - Security Policy: security/policy.md
+    - Key Ceremony: security/key-ceremony.md
+    - Incident Response: security/incident-response.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/aura-blockchain

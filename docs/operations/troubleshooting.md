@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Troubleshooting
 
 Common issues and solutions for AURA node operators.

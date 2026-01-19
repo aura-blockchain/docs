@@ -1,0 +1,24 @@
+{
+  "id": "security/incident-response",
+  "title": "AURA MVP Incident Response & Upgrade Runbook",
+  "description": "Version: 1.1 (MVP)",
+  "source": "@site/docs/security/incident-response.md",
+  "sourceDirName": "security",
+  "slug": "/security/incident-response",
+  "permalink": "/security/incident-response",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aura-blockchain/docs/tree/main/docs/security/incident-response.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "AURA MVP Validator Key Ceremony",
+    "permalink": "/security/key-ceremony"
+  },
+  "next": {
+    "title": "AURA Public Endpoints",
+    "permalink": "/public-endpoints"
+  }
+}

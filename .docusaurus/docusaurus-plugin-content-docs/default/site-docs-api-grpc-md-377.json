@@ -1,0 +1,27 @@
+{
+  "id": "api/grpc",
+  "title": "gRPC API",
+  "description": "AURA provides gRPC endpoints for efficient programmatic access.",
+  "source": "@site/docs/api/grpc.md",
+  "sourceDirName": "api",
+  "slug": "/api/grpc",
+  "permalink": "/api/grpc",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aura-blockchain/docs/tree/main/docs/api/grpc.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "REST API",
+    "permalink": "/api/rest"
+  },
+  "next": {
+    "title": "Security Policy",
+    "permalink": "/security/policy"
+  }
+}

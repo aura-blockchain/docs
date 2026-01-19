@@ -1,0 +1,24 @@
+{
+  "id": "security/key-ceremony",
+  "title": "AURA MVP Validator Key Ceremony",
+  "description": "Version: 1.0",
+  "source": "@site/docs/security/key-ceremony.md",
+  "sourceDirName": "security",
+  "slug": "/security/key-ceremony",
+  "permalink": "/security/key-ceremony",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aura-blockchain/docs/tree/main/docs/security/key-ceremony.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Security Policy",
+    "permalink": "/security/policy"
+  },
+  "next": {
+    "title": "AURA MVP Incident Response & Upgrade Runbook",
+    "permalink": "/security/incident-response"
+  }
+}

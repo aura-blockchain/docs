@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Security Policy
 
 AURA takes security seriously. This document outlines our security practices and vulnerability disclosure process.

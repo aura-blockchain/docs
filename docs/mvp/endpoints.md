@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Testnet Endpoints
 
 Public endpoints for the AURA MVP testnet.

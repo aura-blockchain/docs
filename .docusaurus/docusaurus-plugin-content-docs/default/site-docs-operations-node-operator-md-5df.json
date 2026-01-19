@@ -1,0 +1,27 @@
+{
+  "id": "operations/node-operator",
+  "title": "Node Operator Guide",
+  "description": "This guide covers running and maintaining an AURA full node.",
+  "source": "@site/docs/operations/node-operator.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/node-operator",
+  "permalink": "/operations/node-operator",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aura-blockchain/docs/tree/main/docs/operations/node-operator.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Validator Setup Guide",
+    "permalink": "/operations/validator-setup"
+  },
+  "next": {
+    "title": "Upgrade Procedures",
+    "permalink": "/operations/upgrades"
+  }
+}

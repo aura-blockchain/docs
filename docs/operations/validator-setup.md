@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Validator Setup Guide
 
 This guide walks through setting up a validator node on the AURA MVP testnet.

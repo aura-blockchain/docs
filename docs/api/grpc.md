@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # gRPC API
 
 AURA provides gRPC endpoints for efficient programmatic access.

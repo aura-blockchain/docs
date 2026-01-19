@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # About AURA MVP
 
 The AURA MVP (Minimum Viable Product) is the first public release of the AURA blockchain, focusing on core credential verification functionality.

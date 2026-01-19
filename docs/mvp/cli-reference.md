@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # AURA MVP CLI Reference
 
 Quick reference for MVP module CLI commands.

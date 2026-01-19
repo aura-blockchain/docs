@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Upgrade Procedures
 
 This guide covers upgrading AURA nodes between versions.

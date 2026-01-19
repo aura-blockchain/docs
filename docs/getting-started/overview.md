@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Overview
 
 AURA is a purpose-built blockchain for credential verification, built on the Cosmos SDK.

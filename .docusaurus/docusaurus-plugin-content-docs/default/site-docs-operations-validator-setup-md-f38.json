@@ -1,0 +1,27 @@
+{
+  "id": "operations/validator-setup",
+  "title": "Validator Setup Guide",
+  "description": "This guide walks through setting up a validator node on the AURA MVP testnet.",
+  "source": "@site/docs/operations/validator-setup.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/validator-setup",
+  "permalink": "/operations/validator-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aura-blockchain/docs/tree/main/docs/operations/validator-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Testnet Endpoints",
+    "permalink": "/mvp/endpoints"
+  },
+  "next": {
+    "title": "Node Operator Guide",
+    "permalink": "/operations/node-operator"
+  }
+}

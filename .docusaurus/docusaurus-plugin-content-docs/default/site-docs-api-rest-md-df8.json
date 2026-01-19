@@ -1,0 +1,27 @@
+{
+  "id": "api/rest",
+  "title": "REST API",
+  "description": "The AURA REST API provides HTTP endpoints for querying blockchain state.",
+  "source": "@site/docs/api/rest.md",
+  "sourceDirName": "api",
+  "slug": "/api/rest",
+  "permalink": "/api/rest",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aura-blockchain/docs/tree/main/docs/api/rest.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Troubleshooting",
+    "permalink": "/operations/troubleshooting"
+  },
+  "next": {
+    "title": "gRPC API",
+    "permalink": "/api/grpc"
+  }
+}

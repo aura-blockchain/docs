@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Quick Start
 
 Get started with AURA testnet in minutes.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # AURA MVP Modules
 
 The MVP release includes 12 essential modules for credential verification on the AURA blockchain.

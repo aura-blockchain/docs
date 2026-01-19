@@ -1,0 +1,118 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "api/grpc",
+              "path": "/api/grpc",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "api/rest",
+              "path": "/api/rest",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/getting-started/installation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "getting-started/overview",
+              "path": "/getting-started/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "getting-started/quickstart",
+              "path": "/getting-started/quickstart",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "mvp/about",
+              "path": "/mvp/about",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "mvp/cli-reference",
+              "path": "/mvp/cli-reference",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "mvp/endpoints",
+              "path": "/mvp/endpoints",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "mvp/modules",
+              "path": "/mvp/modules",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "operations/node-operator",
+              "path": "/operations/node-operator",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "operations/troubleshooting",
+              "path": "/operations/troubleshooting",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "operations/upgrades",
+              "path": "/operations/upgrades",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "operations/validator-setup",
+              "path": "/operations/validator-setup",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "public-endpoints",
+              "path": "/public-endpoints",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "security/incident-response",
+              "path": "/security/incident-response",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "security/key-ceremony",
+              "path": "/security/key-ceremony",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "security/policy",
+              "path": "/security/policy",
+              "sidebar": "docsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docsSidebar": {
+              "link": {
+                "path": "/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

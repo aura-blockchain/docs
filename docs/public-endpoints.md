@@ -1,3 +1,7 @@
+---
+sidebar_position: 99
+---
+
 # AURA Public Endpoints
 
 Public API endpoints for connecting to the AURA MVP testnet.

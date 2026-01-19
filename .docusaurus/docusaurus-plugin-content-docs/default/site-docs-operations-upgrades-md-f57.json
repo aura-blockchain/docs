@@ -1,0 +1,27 @@
+{
+  "id": "operations/upgrades",
+  "title": "Upgrade Procedures",
+  "description": "This guide covers upgrading AURA nodes between versions.",
+  "source": "@site/docs/operations/upgrades.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/upgrades",
+  "permalink": "/operations/upgrades",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aura-blockchain/docs/tree/main/docs/operations/upgrades.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Node Operator Guide",
+    "permalink": "/operations/node-operator"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/operations/troubleshooting"
+  }
+}

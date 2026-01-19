@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Node Operator Guide
 
 This guide covers running and maintaining an AURA full node.

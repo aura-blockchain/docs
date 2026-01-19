@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # REST API
 
 The AURA REST API provides HTTP endpoints for querying blockchain state.

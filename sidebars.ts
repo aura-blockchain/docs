@@ -35,6 +35,18 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'SDKs',
+      items: [
+        'sdk/overview',
+        'sdk/typescript',
+        'sdk/react',
+        'sdk/react-native',
+        'sdk/flutter',
+        'sdk/cli',
+      ],
+    },
+    {
+      type: 'category',
       label: 'API Reference',
       items: [
         'api/rest',
